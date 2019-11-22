@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String ss= "Karnataka#Bangalore~Mysore&Tamil Nadu#Chennei~Madurai";
+
+
     }
 
     public void show(View view) {
@@ -28,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         lp.windowAnimations = R.style.DialogAnimation;
         dialog.getWindow().setAttributes(lp);
     }
+
 }
